@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Form Table</title>
+    </head>
+
+<body>
+    <div class="container" style="text-align: center;">
+        <div class="left">
+        <div class="Header">
+            <h2 style="color: aliceblue;"><b><u>Dom Manipulation with form</u></b></h2>
+            <h3 style="color: aliceblue;"">Fill the form and Store the data from Table</h3>
+        </div>
+          <form class="form-card" id="form-id">
+            <label>First Name :</label>
+            <input type="text" value="" id="first" placeholder="Enter The First Name"/><br>
+            <label>Last Name :</label>
+            <input type="text" value="" id="last" placeholder="Enter The Last Name"/><br>
+            <label>Address :</label>
+            <input type="text" value="" id="address" placeholder="Enter your address"/><br>
+            <label>Pincode :</label>
+            <input type="number" value="" id="pincode" placeholder="Pin code"/><br>
+            <label>Gender :</label>
+              <select  id="gender" name="gender" type="text">
+                <option value="">Please Select</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select><br>
+            <label>Choice of food :</label>
+              <select id="food" name="food" type="text">
+                <option value="">Select Food</option>
+              <option value="Fried Rice">Fried Rice</option>
+              <option value="Idly">Idly</option>
+              <option value="Dhosa">Dhosa</option>
+              <option value="Biriyani">Biriyani</option>
+              <option value="South indian">South indian food</option>
+            </select><br>
+            <label>State :</label>
+              <select id="state" name="state" type="text" value="">
+                <option value="">Select State</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Tamilnadu">Tamilnadu</option>
+            </select><br>
+            <label>Country :</label>
+              <select id="country" name="country" type="text" value="">
+                <option value="">Select Country</option>
+                <option value="America">America</option>
+                <option value="South africa">South africa</option>
+            </select><br>
+            <button id="btn-clk" type="button" class="btn btn-primary">Add Data</button><button id="btn-clk1" type="button" class="btn btn-primary">Reset</button><br>
+        </form>
+    </div>
+    </div>
+          <table class="table" id="table1" border="1">
+             <h2 style="text-align: center;">Database Table</h2>
+            <thead>
+                <tr class="success">
+                    <td class="success">FirstName</td>
+                    <td class="success">LastName</td>
+                    <td class="success">Address</td>
+                    <td class="success">Pincode</td>
+                    <td class="success">Gender</td>
+                    <td class="success">Food</td>
+                    <td class="success">State</td>
+                    <td class="success">Country</td>
+                </tr>
+            </thead>
+            <tbody id="bodytab">
+
+            </tbody>
+          </table>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>  
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> 
+    <script src="script.js"></script>
+</body>
+</html>

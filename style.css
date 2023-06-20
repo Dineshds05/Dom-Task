@@ -1,0 +1,35 @@
+
+  img{
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+  }
+  .container{
+  background-image:url(https://img.freepik.com/free-photo/purple-blue-wallpaper-with-colorful-swirl_1340-27545.jpg?w=360&t=st=1686898115~exp=1686898715~hmac=c991d9a03f5ee8f0e7020ac0865014ff505e816621f003a9474cd68182cf11c0);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  }
+  #btn-clk, #btn-clk1{
+    height: 3rem;
+    width: 80px;
+    font-size: 10px;
+    margin: 0.5rem;
+  }
+  #table1{
+    margin-right: 1rem;
+    margin-left: 8rem;
+    width: 80%;
+  }
+  form{
+    background-color: whitesmoke;
+    width: 40%;
+    padding-top: 1rem;
+    margin-left: 30%;
+    margin-bottom: 1%;
+  }
+
+  
+ 
